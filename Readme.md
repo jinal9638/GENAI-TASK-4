@@ -56,3 +56,9 @@ Extra (Optional): Calculate and print the total count of lines present in the fi
 
 
 Note : A file named sales_data.txt will be automatically generated and updated in the same folder.
+
+# GitHub Link
+
+Github repo link :
+
+[https://github.com/jinal9638/GENAI-TASK-4.git]
