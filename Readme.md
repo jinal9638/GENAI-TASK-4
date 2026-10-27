@@ -46,6 +46,57 @@ Display Updated File: Reopen in read mode (r) and output the updated content.
 
 Extra (Optional): Calculate and print the total count of lines present in the file after appending.
 
+#  Task 4: Generate Summary Report from file
+
+This task is to process raw sales data from a text file.
+
+Convert the string values into numerical integer formats.
+
+Compute key performance indicators such as total sales, maximum sales, minimum sales, and average sales. 
+
+This analysis helps management make informed decisions regarding future sales targets.
+
+- > Total Sales: The sum of all recorded sales values.
+
+- > Highest Sale: The peak sales figure recorded in the dataset.
+
+- > Lowest Sale: The minimum sales figure recorded in the dataset.
+
+- > Average Sales: The mean sales performance across all entries.
+
+# Task 5 : Create Product Info file
+
+Collects product details from a user, saves them into a formatted text file, and then displays the file contents.
+
+- > Data Collection: Loops 3 times to ask the user for a product name (key) and price (value), storing them in a dictionary (product).
+
+- > File Writing: Opens (or creates) a file named product.txt in write mode ('w') and writes a neatly aligned table containing the header, separator, and product data.
+
+- > File Reading: Re-opens the file in read mode ('r') and prints the final formatted text file to the console.
+
+# Task 6 : Read File Safely
+
+Checks if a file exists before trying to read it, preventing program crashes:
+
+- > Import os: Imports Python's built-in module for interacting with the operating system (like checking file paths).
+
+- > User Input: Prompts the user to type the name of the file they want to open.
+
+- > Existence Check (os.path.exists): Verifies whether the file actually exists in the directory.
+
+- > Read & Display: If found, it safely opens the file in read mode ('r') and prints its contents. Otherwise, it shows a error message.
+
+# Task 7 : Mini Project - Export Discounted Prices
+
+Calculates product discounts interactively and generates a formatted report.
+
+- > Interactive Discount Calculation: Loops through the product dictionary, prompts the user to input a discount percentage for each item, computes the new discounted price, and adds it to the product's list.
+
+- > Report Generation: Opens (or creates) discount_report.txt and writes a neat, aligned table containing the product names, original prices, and discounted prices.
+
+- > File Reading & Display: Opens the text file in read mode and prints the final report to the console.
+
+
 # How to Run
 
 1.Make sure Python 3.10+ is installed on your system.

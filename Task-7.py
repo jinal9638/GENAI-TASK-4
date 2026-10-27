@@ -1,3 +1,4 @@
+
 prices={
     "Mouse":[500],
     "Keyboard":[800],
@@ -6,6 +7,7 @@ prices={
     "Camera":[5000]
 }
 
+# iterate on each key and value
 for k,v in list(prices.items()):
     discount=int(input(f"Enter discount for the product '{k}':"))
     discounted_price=v[0]-(v[0]*discount/100)

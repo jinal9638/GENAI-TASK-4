@@ -1,3 +1,4 @@
+# os module to check file exist or not
 import os
 
 filename = input("Enter filename to open: ")
